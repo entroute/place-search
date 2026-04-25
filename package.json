@@ -1,0 +1,33 @@
+{
+  "name": "place-search",
+  "version": "0.1.0",
+  "description": "Search for nearby places via a verified x402 endpoint. No API key, pay-per-search in USDC.",
+  "keywords": [
+    "x402",
+    "places-api",
+    "nearby-places",
+    "google-places-alternative",
+    "foursquare-alternative",
+    "location-search",
+    "ai-agents",
+    "mcp",
+    "entroute",
+    "pay-per-request"
+  ],
+  "homepage": "https://entroute.com",
+  "bugs": "https://github.com/entroute/place-search/issues",
+  "license": "MIT",
+  "author": "EntRoute",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@entroute/sdk-agent-ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
